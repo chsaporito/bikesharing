@@ -40,6 +40,7 @@ disproportionate number of males compare to females.
 ```
 This heatmap shows the number of checkouts by user type and gender by the weekday.
 We can see that male subscribers are the heaviest users particularly on Thursdays and Fridays.
+The unknown gender type appears to have only Customer as its user type with no Subscriber types.
 ```
 
 ![This is an image](/images/avg_trip_duration.PNG)
@@ -50,5 +51,9 @@ The unknown gender type has the longest trip duration average.
 ```
 
 ## Summary: 
-Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset.
+The results show a disproportionate number of males compared to females. Males have many more checkouts but females have a higher average ride duration. As we know averages don't tell the whole story. With males having a much larger representation, they will also have a better representation of averages. The higher ride time average for females may level out with more representation.
+The unknown gender types are not subscribers, have the lowest number of checkouts but have the highest ride time averages.
+
+I would reccomend charts showing ride duration vs user type and also a location map of gender types and user types.
+
 
