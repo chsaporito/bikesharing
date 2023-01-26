@@ -1,4 +1,5 @@
 # NYC Citybike
+[Tableau Public Citybike Story](https://public.tableau.com/app/profile/christopher.henry.saporito/viz/NYC_Citibike_Challenge_16745072996690/CitybikeStory)
 ## Overview of the analysis:
 The purpose this analysis is to create visualizations of the Citybike data that displays the time that bikes are checked out, the number of bike trip sand the genders of the users.
 ## Results: 
@@ -12,28 +13,42 @@ There 2.6 times more males than females with a difference of 941,841.
 ![This is an image](/images/2checkout_all.PNG)
 ```
 This graph shows the length of time bikes are checked out for all users.
-The majarity of users check out bikes for aproximatly 5-6 minute with a smaller
+The majority of users check out bikes for approximately 5-6 minute with a smaller
 number of checking out bikes for an hour or so.
 ```
 
 ![This is an image](/images/3checkout_gender.PNG)
 ```
 This is the same graph as the previous one but shows the breakdown of bike checkouts by gender.
-We can also see the large discrepency of the female/male ratio.
+We can also see the large discrepancy of the female/male ratio.
 ```
 
 ![This is an image](/images/4trips_weeday_hour.png)
 ```
-This heatmap shows the weekday breakdown of checkouts for eveyone for eac hour.
+This heatmap shows the weekday breakdown of checkouts for everyone for each hour.
 The color represents the number of bike checkouts with the darker regions representing heavy use and the 
 lighter regions representing less use.
 ```
 
 ![This is an image](/images/5trips_weeday_hour_gender.png)
+```
+This is the same graph as the previous heat map broken down by gender. Angain we can see the 
+disproportionate number of males compare to females.
+```
 
 ![This is an image](/images/6trips_weekday_type_gender.PNG)
+```
+This heatmap shows the number of checkouts by user type and gender by the weekday.
+We can see that male subscribers are the heaviest users particularly on Thursdays and Fridays.
+```
 
 ![This is an image](/images/avg_trip_duration.PNG)
+```
+This last graph I made to see what the actual trip duration was based on gender. 
+Even though male users have a much higher representation of checkouts, female users take longer rides on average.
+The unknown gender type has the longest trip duration average.
+```
+
 ## Summary: 
 Provide a high-level summary of the results and two additional visualizations that you would perform with the given dataset.
-This site was built using [GitHub Pages](https://pages.github.com/
+
